@@ -12,6 +12,17 @@ The bottleneck for building software isn't engineering capacity anymore — it's
 
 **[Project Page](https://metavert.io/lastsaas)**
 
+### How this repo works (documentation)
+
+The rest of this README is the feature list, quick start, Stripe, MCP, and deploy. For a deeper walkthrough of the codebase and how to build a product on LastSaaS, see:
+
+| Doc | Contents |
+|-----|----------|
+| [docs/README.md](docs/README.md) | Index |
+| [docs/architecture.md](docs/architecture.md) | Stack, folders, request lifecycle, tenancy, auth, data layer |
+| [docs/features.md](docs/features.md) | How each platform feature works internally |
+| [docs/build-your-saas.md](docs/build-your-saas.md) | Step-by-step: models, APIs, UI, entitlements, credits, deploy |
+
 ---
 
 ## Why LastSaaS Exists
@@ -871,6 +882,9 @@ The Docker image works anywhere containers run. The only external dependency is 
 ---
 
 ## Fork It and Keep Building with AI
+
+A step-by-step recipe (models, entitlements, credits, deploy, two-backend warning) is in **[docs/build-your-saas.md](docs/build-your-saas.md)**.
+
 
 LastSaaS was built entirely through conversation with [Claude Code](https://claude.ai/claude-code) — every feature, every handler, every component was described in natural language and implemented by an AI agent. But the real point isn't that it *was* built this way — it's that it's designed to *keep* being built this way.
 
