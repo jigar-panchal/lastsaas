@@ -1,5 +1,7 @@
 # LastSaaS Development Rules
 
+Human-oriented platform docs (architecture, features, building a product): see `docs/README.md`.
+
 ## Validation
 
 LastSaaS uses hybrid validation: Go-side (`validate` struct tags via go-playground/validator) and MongoDB JSON Schema (`internal/db/schema.go`).
